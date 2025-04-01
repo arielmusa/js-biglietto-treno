@@ -29,6 +29,8 @@ if (userAge < 18) {
   discountPerc = discount / 100;
   discountPrice = ticketPrice - ticketPrice * discountPerc;
   console.log(discountPrice);
+} else {
+  discountPrice = ticketPrice;
 }
 
 // convert discount price do string
